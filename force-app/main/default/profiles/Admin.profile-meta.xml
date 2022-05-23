@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- 
+        adjusted file like suggested in comments: https://trailhead.salesforce.com/de/trailblazer-community/feed/0D54S00000A8lGZSAZ
+    -->
     <applicationVisibilities>
         <application>DreamHouse</application>
         <default>false</default>
@@ -467,10 +470,12 @@
         <enabled>true</enabled>
         <name>ExportReport</name>
     </userPermissions>
+    <!--
     <userPermissions>
         <enabled>true</enabled>
         <name>FieldServiceAccess</name>
     </userPermissions>
+    -->
     <userPermissions>
         <enabled>true</enabled>
         <name>GiveRecognitionBadge</name>
@@ -767,10 +772,12 @@
         <enabled>true</enabled>
         <name>SendCustomNotifications</name>
     </userPermissions>
+    <!--
     <userPermissions>
         <enabled>true</enabled>
         <name>SendExternalEmailAvailable</name>
     </userPermissions>
+    -->
     <userPermissions>
         <enabled>true</enabled>
         <name>SendSitRequests</name>
